@@ -60,7 +60,7 @@ function App() {
         <Route path="/login" component={login} />
         <Route path="/checkout" component={CheckOut} />
         <Route path="/register" component={register} />
-        <Route exact path="/search" component={Productlist} />
+        <Route exact path="/search/" component={Productlist} />
         <Route path={"/search/:str"} component={SearchBarHandler} />
         <Route exact path={"/?search=:str"} component={SearchBarHandler} />
         <Route component={Default} />
